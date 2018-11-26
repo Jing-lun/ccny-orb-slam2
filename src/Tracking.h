@@ -47,6 +47,14 @@
 #include <iostream>
 #include <fstream>
 
+#include <nav_msgs/Path.h>
+
+#include <tf/transform_datatypes.h>
+#include <geometry_msgs/Vector3Stamped.h>
+#include <geometry_msgs/PoseStamped.h>
+
+#include<tf/transform_broadcaster.h>
+
 class PointCloudMapping;
 
 void GrabRGBD_IMU(const poine_orbslam::MatrixConstPtr orb_msg, const sensor_msgs::ImuConstPtr& imu_msg, const nav_msgs::OdometryConstPtr& odom_msg);
@@ -136,6 +144,12 @@ public:
     poine_orbslam::Matrix Frame_Tcw;
     ros::Subscriber odom_sub;
     ros::Subscriber imu_sub;
+
+    ros::Publisher path_pub_;
+    nav_msgs::Path path_msg_;
+    ros::Publisher pose_pub_;
+    geometry_msgs::PoseStamped pose_msg_;
+
     Eigen::Quaternion<double> q_fusion;
     cv::Mat R_fusion;
     cv::Mat T_fusion;
@@ -145,6 +159,8 @@ public:
     double px, py, pz;
     //cv::Mat trans = mCurrentFrame.mTcw.rowRange(0,3).col(3);
 protected:
+
+    void publishPath( tf::Transform& tfTcw);
 
     // Main tracking function. It is independent of the input sensor.
     void Track();
