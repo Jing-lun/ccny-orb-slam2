@@ -21,7 +21,6 @@
 
 #include "Tracking.h"
 
-#include<ros/ros.h>
 #include <cv_bridge/cv_bridge.h>
 #include <message_filters/subscriber.h>
 #include <message_filters/time_synchronizer.h>
@@ -50,55 +49,7 @@
 
 
 using namespace std;
-#if 0
-void GrabRGBD_IMU(const poine_orbslam::MatrixConstPtr orb_msg, const sensor_msgs::ImuConstPtr& imu_msg, const nav_msgs::OdometryConstPtr& odom_msg)
-{
-    //bag_record.write("/kinect2/qhd/image_color_rect", kinect2color_msg->header.stamp.now(), kinect2color_msg);
-    //bag_record.write("/kinect2/qhd/image_depth_rect", kinect2depth_msg->header.stamp.now(), kinect2depth_msg);
-    //bag_record.write("/imu_os3dm/imu_raw", imu_msg->header.stamp.now(), imu_msg);
 
-            cout<<"can we get here?"<<endl;
-    
-    // IMU 数据保存
-    ofstream outfile2("//home//robooster//Desktop//imu_data_raw.txt", ios_base::app);
-    Eigen::Quaterniond q;
-    q.x() = imu_msg->orientation.x;
-    q.y() = imu_msg->orientation.y;
-    q.z() = imu_msg->orientation.z;
-    q.w() = imu_msg->orientation.w;
-    outfile2.setf(ios::fixed);
-    outfile2<< fixed << setprecision(5) << std::left << std::setw(18)<<imu_msg->header.stamp.now().toSec();
-    outfile2<< fixed << setprecision(8) << std::left << std::setw(15)<<q.x();
-    outfile2<< fixed << setprecision(8) << std::left << std::setw(15)<<q.y();
-    outfile2<< fixed << setprecision(8) << std::left << std::setw(15)<<q.z();
-    outfile2<< fixed << setprecision(8) << std::left << std::setw(15)<<q.w()<<endl;
-
-    // Odom 数据保存
-    static double px, py, pz;               
-    pz = odom_msg->pose.pose.position.x;
-    px = odom_msg->pose.pose.position.y;
-    py = odom_msg->pose.pose.position.z;
-    ofstream outfile("//home//robooster//Desktop//odometry_data.txt", ios_base::app);
-    outfile.setf(ios::fixed);
-    outfile<< fixed << setprecision(5) << std::left << std::setw(18)<<odom_msg->header.stamp.now().toSec();
-    outfile<< fixed << setprecision(8) << std::left << std::setw(15)<<px;
-    outfile<< fixed << setprecision(8) << std::left << std::setw(15)<<pz;
-    outfile<< fixed << setprecision(8) << std::left << std::setw(15)<<py<<endl;
-
-    #if 1
-    ofstream outfile1("//home//robooster//Desktop//orbslam_data.txt", ios_base::app);
-    outfile1.setf(ios::fixed);
-    outfile1<< fixed << setprecision(5) << std::left << std::setw(18)<<orb_msg->header.stamp.now().toSec();
-    outfile1<< fixed << setprecision(8) << std::left << std::setw(15)<<orb_msg->Frame_mTcw.rotation.x;
-    outfile1<< fixed << setprecision(8) << std::left << std::setw(15)<<orb_msg->Frame_mTcw.rotation.y;
-    outfile1<< fixed << setprecision(8) << std::left << std::setw(15)<<orb_msg->Frame_mTcw.rotation.z;
-    outfile1<< fixed << setprecision(8) << std::left << std::setw(15)<<orb_msg->Frame_mTcw.rotation.w;
-    outfile1<< fixed << setprecision(8) << std::left << std::setw(15)<<orb_msg->Frame_mTcw.translation.x;
-    outfile1<< fixed << setprecision(8) << std::left << std::setw(15)<<orb_msg->Frame_mTcw.translation.z;
-    outfile1<< fixed << setprecision(8) << std::left << std::setw(15)<<orb_msg->Frame_mTcw.translation.y<<endl;
-    #endif
-}
-#endif
 namespace ORB_SLAM2
 {
 
@@ -113,6 +64,9 @@ Tracking::Tracking(System *pSys, ORBVocabulary* pVoc, Map *pMap, shared_ptr<Poin
 	std::vector<KeyFrame*> akf = pMap->GetAllKeyFrames();
 	mpReferenceKF = akf[0];
   }
+
+    path_pub_ = nh.advertise<nav_msgs::Path >("/slam/path", 5);
+    pose_pub_ = nh.advertise<geometry_msgs::PoseStamped >("/slam/pose", 5);
 
     // Load camera parameters from settings file
 
@@ -175,6 +129,23 @@ Tracking::Tracking(System *pSys, ORBVocabulary* pVoc, Map *pMap, shared_ptr<Poin
             mDepthMapFactor = 1.0f/mDepthMapFactor;
     }
     fSettings.release();
+}
+
+void Tracking::publishPath( tf::Transform& tfTcw)
+{
+
+  std::string fixed_frame_ = "/odom";
+  path_msg_.header.frame_id = fixed_frame_;
+
+  geometry_msgs::PoseStamped pose_stamped;
+
+  pose_stamped.header.frame_id = fixed_frame_;
+  pose_stamped.header.stamp = ros::Time::now();
+  tf::poseTFToMsg(tfTcw, pose_stamped.pose);
+  pose_pub_.publish(pose_stamped);
+
+  path_msg_.poses.push_back(pose_stamped);
+  path_pub_.publish(path_msg_);
 }
 
 void Tracking::SetLocalMapper(LocalMapping *pLocalMapper)
@@ -263,6 +234,27 @@ cv::Mat Tracking::GrabImageRGBD(const cv::Mat &imRGB,const cv::Mat &imD, const d
     // int x=mCurrentFrame.mnId;
     // cout<<x<<endl;
     Track(tat);
+
+    if(!mCurrentFrame.mTcw.empty())
+    {
+        cv::Mat Rwc = mCurrentFrame.mTcw.rowRange(0,3).colRange(0,3).t();
+        cv::Mat twc = -Rwc*mCurrentFrame.mTcw.rowRange(0,3).col(3);
+        tf::Matrix3x3 M(Rwc.at<float>(0,0),Rwc.at<float>(0,1),Rwc.at<float>(0,2),
+                        Rwc.at<float>(1,0),Rwc.at<float>(1,1),Rwc.at<float>(1,2),
+                        Rwc.at<float>(2,0),Rwc.at<float>(2,1),Rwc.at<float>(2,2));
+        tf::Matrix3x3 inverRot(0.0, 0.0, 1.0,
+        		               0.0, 1.0, 0.0,
+        		               1.0, 0.0, 0.0 );
+
+       //M = M*inverRot;
+
+        tf::Vector3 V(twc.at<float>(0), twc.at<float>(1), twc.at<float>(2));
+
+        tf::Transform tfTcw(M,V);
+
+        publishPath(tfTcw);
+    }
+
     return mCurrentFrame.mTcw.clone();
 }
 
@@ -1757,7 +1749,7 @@ void Tracking::CreateNewKeyFrame()
     mpLocalMapper->SetNotStop(false);
 
     //mpPointCloudMapping->PointCloudMapping::insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
-    mpPointCloudMapping->insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
+    //mpPointCloudMapping->insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
 
     mnLastKeyFrameId = mCurrentFrame.mnId;
     mpLastKeyFrame = pKF;
@@ -1846,8 +1838,8 @@ void Tracking::CreateNewKeyFrame(string tat)
     string acd;
     sty>>acd;
     cout<<acd<<endl;
-    fsave<<acd<<"KeyFrame_ID"<<pKF->mnId <<".jpeg";
-    fdsave<<acd<<"KEYFRAME_DEPTH_ED"<<pKF->mnId<<".jpeg";
+    fsave<<acd<<"KeyFrame_ID"<<pKF->mnId <<".png";
+    fdsave<<acd<<"KeyFrame_Depth_ID"<<pKF->mnId<<".png";
     fsave>>dsave;
     fdsave>>dasave;
 
@@ -1856,8 +1848,7 @@ void Tracking::CreateNewKeyFrame(string tat)
 
     cv::imwrite(dsave,this->mImRGB);
     cv::imwrite(dasave,this->mImDepth);
-    //mpPointCloudMapping->PointCloudMapping::insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
-    mpPointCloudMapping->insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
+    //mpPointCloudMapping->insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
 
     mnLastKeyFrameId = mCurrentFrame.mnId;
     mpLastKeyFrame = pKF;
