@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o
+=======
+# Install script for directory: /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +44,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -13,10 +13,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
+<<<<<<< HEAD
   "/opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVConfig-version.cmake"
   "/opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVConfig.cmake"
   "/opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVModules-none.cmake"
   "/opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVModules.cmake"
+=======
+  "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake"
+  "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake"
+  "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake"
+  "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules.cmake"
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
   "/usr/share/cmake-3.5/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.5/Modules/CMakeCInformation.cmake"

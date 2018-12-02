@@ -104,9 +104,15 @@ private:
       params.push_back(cv::IMWRITE_PNG_STRATEGY_RLE);
       params.push_back(0);
   
+<<<<<<< HEAD
       string orbVocFile = "/home/all3n/viorb_config/config/ORBvoc.bin";
       //string orbVocFile = "/home/robooster/viorb_config/config/ORBvoc.txt";
       string orbSetiingsFile = "/home/all3n/viorb_config/config/kinect2_sd.yaml";
+=======
+      string orbVocFile = "/home/robooster/viorb_config/config/ORBvoc.bin";
+      //string orbVocFile = "/home/robooster/viorb_config/config/ORBvoc.txt";
+      string orbSetiingsFile = "/home/robooster/viorb_config/config/kinect2_sd.yaml";
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
       #if 0
       ORB_SLAM2::Viewer* viewer;
       viewer = new ORB_SLAM2::PangolinViewer(orbSetiingsFile);
@@ -115,10 +121,17 @@ private:
       
       #if 1
       ORB_SLAM2::ORBVocabulary voc;
+<<<<<<< HEAD
       voc.loadFromBinaryFile("/home/all3n/viorb_config/config/ORBvoc.bin");
       ORB_SLAM2::Camera::Load(orbSetiingsFile);
       ORB_SLAM2::Map map;
       string mapename = "/home/all3n/viorb_config/save_map/mapdata.bin";
+=======
+      voc.loadFromBinaryFile("/home/robooster/viorb_config/config/ORBvoc.bin");
+      ORB_SLAM2::Camera::Load(orbSetiingsFile);
+      ORB_SLAM2::Map map;
+      string mapename = "/home/robooster/viorb_config/save_map/mapdata.bin";
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
       map.Load(mapename, voc);
       if (0)
       {
@@ -383,8 +396,13 @@ private:
    {
      return 0;
    }
+<<<<<<< HEAD
    std::string topicColor = "/kinect2/qhd/image_color_rect";
    std::string topicDepth = "/kinect2/qhd/image_depth_rect";
+=======
+   std::string topicColor = "/kinect2/sd/image_color_rect";
+   std::string topicDepth = "/kinect2/sd/image_depth_rect";
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
    bool useExact = true;
    bool useCompressed = false;
    Receiver::Mode mode = Receiver::IMAGE;

@@ -5,7 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+<<<<<<< HEAD
   "/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.c" "/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o"
+=======
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.c" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o"
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -19,6 +23,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../core"
   "../types"
   "../stuff"
+<<<<<<< HEAD
   "/usr/include/eigen3"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
@@ -50,6 +55,39 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_sba.cpp" "/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o"
   "/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp" "/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o"
   "/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp" "/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o"
+=======
+  "/usr/local/include/eigen3"
+  )
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/batch_stats.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/cache.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/cache.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/estimate_propagator.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/factory.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/factory.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/matrix_structure.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimizable_graph.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter_container.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/solver.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/solver.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/property.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/string_tools.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/timeutil.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_sba.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o"
+  "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp" "/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o"
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -63,7 +101,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../core"
   "../types"
   "../stuff"
+<<<<<<< HEAD
   "/usr/include/eigen3"
+=======
+  "/usr/local/include/eigen3"
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
   )
 
 # Targets to which this target links.

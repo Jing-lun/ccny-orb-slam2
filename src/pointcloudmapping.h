@@ -55,6 +55,7 @@
 #include <iterator>
 #include <vector>
 #include <mutex>
+<<<<<<< HEAD
 #include <Eigen/Dense>
 #include <Eigen/StdVector>
 #include <boost/format.hpp>  // for formating strings
@@ -64,13 +65,24 @@
 
 using namespace ORB_SLAM2;
 
+=======
+
+using namespace ORB_SLAM2;
+//namespace ORB_SLAM2
+//{
+class ORB_SLAM2::Camera;
+//class KeyFrame;
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 class PointCloudMapping
 {
 public:
     typedef pcl::PointXYZRGBA PointT;
     typedef pcl::PointCloud<PointT> PointCloud;
+<<<<<<< HEAD
     typedef Eigen::Matrix<double, 6, 1> Vector6d;
     // Vector6d newp;
+=======
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
     
     PointCloudMapping( double resolution_ );
     
@@ -79,6 +91,7 @@ public:
     void shutdown();
     void viewer();
 	void savePointCloudToPcd();
+<<<<<<< HEAD
     void showPointCloud( const vector<Vector6d> &pointcloud );
 
     PointCloud::Ptr generatePointCloud(KeyFrame* kf, cv::Mat& color, cv::Mat& depth);
@@ -95,6 +108,13 @@ protected:
     vector<Vector6d> globalpointcloud;
     // vector<Vector6d, Eigen::aligned_allocator<Vector6d>> newpointcloud;
     vector<Vector6d> newpointcloud;
+=======
+    
+protected:
+    PointCloud::Ptr generatePointCloud(KeyFrame* kf, cv::Mat& color, cv::Mat& depth);
+    
+    PointCloud::Ptr globalMap;
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
     shared_ptr<thread>  viewerThread;   
     //std::thread* mptviewer
     //shared_ptr<PointCloudMapping> mpviewer;

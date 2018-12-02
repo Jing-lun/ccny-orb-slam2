@@ -28,7 +28,10 @@
 #include "Frame.h"
 
 #include "Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"
+<<<<<<< HEAD
 // #include <g2o/types/sim3/types_seven_dof_expmap.h>
+=======
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 namespace ORB_SLAM2
 {

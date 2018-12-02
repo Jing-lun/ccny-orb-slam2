@@ -37,6 +37,7 @@ float Frame::mfGridElementWidthInv, Frame::mfGridElementHeightInv;
 
   //static inline void InitializeClass(const float width, const float height, const cv::Mat K, const cv::Mat DistCoef);
 
+<<<<<<< HEAD
 // inline void Frame::InitializeScaleLevels() {
 //   mnScaleLevels = mpORBextractorLeft->GetLevels();
 //   mfScaleFactor = mpORBextractorLeft->GetScaleFactor();
@@ -46,6 +47,17 @@ float Frame::mfGridElementWidthInv, Frame::mfGridElementHeightInv;
 //   mvLevelSigma2 = mpORBextractorLeft->GetScaleSigmaSquares();
 //   mvInvLevelSigma2 = mpORBextractorLeft->GetInverseScaleSigmaSquares();
 // }
+=======
+void Frame::InitializeScaleLevels() {
+  mnScaleLevels = mpORBextractorLeft->GetLevels();
+  mfScaleFactor = mpORBextractorLeft->GetScaleFactor();
+  mfLogScaleFactor = log(mfScaleFactor);
+  mvScaleFactors = mpORBextractorLeft->GetScaleFactors();
+  mvInvScaleFactors = mpORBextractorLeft->GetInverseScaleFactors();
+  mvLevelSigma2 = mpORBextractorLeft->GetScaleSigmaSquares();
+  mvInvLevelSigma2 = mpORBextractorLeft->GetInverseScaleSigmaSquares();
+}
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
   
 // Computes image bounds for the undistorted image (called in the constructor).
 //void ComputeImageBounds(const float width, const float height, const cv::Mat K, const cv::Mat DistCoef);

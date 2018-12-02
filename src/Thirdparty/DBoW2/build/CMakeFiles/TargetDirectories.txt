@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles/edit_cache.dir
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles/rebuild_cache.dir
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles/edit_cache.dir
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles/rebuild_cache.dir
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6

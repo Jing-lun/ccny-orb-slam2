@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build
+=======
+CMAKE_SOURCE_DIR = /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 # Include any dependencies generated for this target.
 include CMakeFiles/g2o.dir/depend.make
@@ -59,6 +66,7 @@ include CMakeFiles/g2o.dir/flags.make
 
 CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o: ../g2o/types/types_sba.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_sba.cpp
 
@@ -69,6 +77,18 @@ CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_sba.cpp -o CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_sba.cpp
+
+CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_sba.cpp > CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.i
+
+CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_sba.cpp -o CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o.requires:
 
@@ -83,6 +103,7 @@ CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o.provides.build: CMakeFiles/g2o.dir/
 
 CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o: ../g2o/types/types_six_dof_expmap.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp
 
@@ -93,6 +114,18 @@ CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp -o CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp
+
+CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp > CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.i
+
+CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp -o CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o.requires:
 
@@ -107,6 +140,7 @@ CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o: ../g2o/types/types_seven_dof_expmap.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp
 
@@ -117,6 +151,18 @@ CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp -o CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp
+
+CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp > CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.i
+
+CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp -o CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o.requires:
 
@@ -131,6 +177,7 @@ CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o.provides.build: CMakeF
 
 CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o: ../g2o/core/hyper_graph_action.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp
 
@@ -141,6 +188,18 @@ CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp -o CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp
+
+CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp > CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp -o CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o.requires:
 
@@ -155,6 +214,7 @@ CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o: ../g2o/core/hyper_graph.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph.cpp
 
@@ -165,6 +225,18 @@ CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph.cpp -o CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph.cpp
+
+CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph.cpp > CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_graph.cpp -o CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o.requires:
 
@@ -179,6 +251,7 @@ CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o.provides.build: CMakeFiles/g2o.dir
 
 CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o: ../g2o/core/marginal_covariance_cholesky.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp
 
@@ -189,6 +262,18 @@ CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp -o CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp
+
+CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp > CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp -o CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o.requires:
 
@@ -203,6 +288,7 @@ CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o.provides.build: C
 
 CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o: ../g2o/core/matrix_structure.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/matrix_structure.cpp
 
@@ -213,6 +299,18 @@ CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/matrix_structure.cpp -o CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/matrix_structure.cpp
+
+CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/matrix_structure.cpp > CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/matrix_structure.cpp -o CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o.requires:
 
@@ -227,6 +325,7 @@ CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o.provides.build: CMakeFiles/g2
 
 CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o: ../g2o/core/batch_stats.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/batch_stats.cpp
 
@@ -237,6 +336,18 @@ CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/batch_stats.cpp -o CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/batch_stats.cpp
+
+CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/batch_stats.cpp > CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/batch_stats.cpp -o CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o.requires:
 
@@ -251,6 +362,7 @@ CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o.provides.build: CMakeFiles/g2o.dir
 
 CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o: ../g2o/core/parameter.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter.cpp
 
@@ -261,6 +373,18 @@ CMakeFiles/g2o.dir/g2o/core/parameter.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/parameter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/parameter.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter.cpp -o CMakeFiles/g2o.dir/g2o/core/parameter.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter.cpp
+
+CMakeFiles/g2o.dir/g2o/core/parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/parameter.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter.cpp > CMakeFiles/g2o.dir/g2o/core/parameter.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/parameter.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter.cpp -o CMakeFiles/g2o.dir/g2o/core/parameter.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o.requires:
 
@@ -275,6 +399,7 @@ CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o.provides.build: CMakeFiles/g2o.dir/g
 
 CMakeFiles/g2o.dir/g2o/core/cache.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/cache.cpp.o: ../g2o/core/cache.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/g2o.dir/g2o/core/cache.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/cache.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/cache.cpp
 
@@ -285,6 +410,18 @@ CMakeFiles/g2o.dir/g2o/core/cache.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/cache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/cache.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/cache.cpp -o CMakeFiles/g2o.dir/g2o/core/cache.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/g2o.dir/g2o/core/cache.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/cache.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/cache.cpp
+
+CMakeFiles/g2o.dir/g2o/core/cache.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/cache.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/cache.cpp > CMakeFiles/g2o.dir/g2o/core/cache.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/cache.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/cache.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/cache.cpp -o CMakeFiles/g2o.dir/g2o/core/cache.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/cache.cpp.o.requires:
 
@@ -299,6 +436,7 @@ CMakeFiles/g2o.dir/g2o/core/cache.cpp.o.provides.build: CMakeFiles/g2o.dir/g2o/c
 
 CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o: ../g2o/core/optimizable_graph.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimizable_graph.cpp
 
@@ -309,6 +447,18 @@ CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimizable_graph.cpp -o CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimizable_graph.cpp
+
+CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimizable_graph.cpp > CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimizable_graph.cpp -o CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o.requires:
 
@@ -323,6 +473,7 @@ CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o.provides.build: CMakeFiles/g
 
 CMakeFiles/g2o.dir/g2o/core/solver.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/solver.cpp.o: ../g2o/core/solver.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/g2o.dir/g2o/core/solver.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/solver.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/solver.cpp
 
@@ -333,6 +484,18 @@ CMakeFiles/g2o.dir/g2o/core/solver.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/solver.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/solver.cpp -o CMakeFiles/g2o.dir/g2o/core/solver.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/g2o.dir/g2o/core/solver.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/solver.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/solver.cpp
+
+CMakeFiles/g2o.dir/g2o/core/solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/solver.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/solver.cpp > CMakeFiles/g2o.dir/g2o/core/solver.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/solver.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/solver.cpp -o CMakeFiles/g2o.dir/g2o/core/solver.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/solver.cpp.o.requires:
 
@@ -347,6 +510,7 @@ CMakeFiles/g2o.dir/g2o/core/solver.cpp.o.provides.build: CMakeFiles/g2o.dir/g2o/
 
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o: ../g2o/core/optimization_algorithm_factory.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp
 
@@ -357,6 +521,18 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp
+
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp > CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o.requires:
 
@@ -371,6 +547,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o.provides.build:
 
 CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o: ../g2o/core/estimate_propagator.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/estimate_propagator.cpp
 
@@ -381,6 +558,18 @@ CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/estimate_propagator.cpp -o CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/estimate_propagator.cpp
+
+CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/estimate_propagator.cpp > CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/estimate_propagator.cpp -o CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o.requires:
 
@@ -395,6 +584,7 @@ CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/g2o.dir/g2o/core/factory.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/factory.cpp.o: ../g2o/core/factory.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/g2o.dir/g2o/core/factory.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/factory.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/factory.cpp
 
@@ -405,6 +595,18 @@ CMakeFiles/g2o.dir/g2o/core/factory.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/factory.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/factory.cpp -o CMakeFiles/g2o.dir/g2o/core/factory.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/g2o.dir/g2o/core/factory.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/factory.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/factory.cpp
+
+CMakeFiles/g2o.dir/g2o/core/factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/factory.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/factory.cpp > CMakeFiles/g2o.dir/g2o/core/factory.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/factory.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/factory.cpp -o CMakeFiles/g2o.dir/g2o/core/factory.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/factory.cpp.o.requires:
 
@@ -419,6 +621,7 @@ CMakeFiles/g2o.dir/g2o/core/factory.cpp.o.provides.build: CMakeFiles/g2o.dir/g2o
 
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o: ../g2o/core/sparse_optimizer.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp
 
@@ -429,6 +632,18 @@ CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp -o CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp
+
+CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp > CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp -o CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o.requires:
 
@@ -443,6 +658,7 @@ CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o.provides.build: CMakeFiles/g2
 
 CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o: ../g2o/core/hyper_dijkstra.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp
 
@@ -453,6 +669,18 @@ CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp -o CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp
+
+CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp > CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp -o CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o.requires:
 
@@ -467,6 +695,7 @@ CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o.provides.build: CMakeFiles/g2o.
 
 CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o: ../g2o/core/parameter_container.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter_container.cpp
 
@@ -477,6 +706,18 @@ CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter_container.cpp -o CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter_container.cpp
+
+CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter_container.cpp > CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/parameter_container.cpp -o CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o.requires:
 
@@ -491,6 +732,7 @@ CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o: ../g2o/core/optimization_algorithm.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp
 
@@ -501,6 +743,18 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp
+
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp > CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o.requires:
 
@@ -515,6 +769,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o: ../g2o/core/optimization_algorithm_with_hessian.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp
 
@@ -525,6 +780,18 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.i: cmake_for
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp
+
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp > CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o.requires:
 
@@ -539,6 +806,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o.provides.b
 
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o: ../g2o/core/optimization_algorithm_levenberg.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp
 
@@ -549,6 +817,18 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp
+
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp > CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o.requires:
 
@@ -563,6 +843,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o.provides.buil
 
 CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o: ../g2o/core/jacobian_workspace.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp
 
@@ -573,6 +854,18 @@ CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp -o CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp
+
+CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp > CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp -o CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o.requires:
 
@@ -587,6 +880,7 @@ CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o: ../g2o/core/robust_kernel.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel.cpp
 
@@ -597,6 +891,18 @@ CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel.cpp -o CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel.cpp
+
+CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel.cpp > CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel.cpp -o CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o.requires:
 
@@ -611,6 +917,7 @@ CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o.provides.build: CMakeFiles/g2o.d
 
 CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o: ../g2o/core/robust_kernel_factory.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp
 
@@ -621,6 +928,18 @@ CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp
+
+CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp > CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o.requires:
 
@@ -635,6 +954,7 @@ CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o: ../g2o/core/robust_kernel_impl.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp
 
@@ -645,6 +965,18 @@ CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp
+
+CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp > CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.i
+
+CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o.requires:
 
@@ -659,6 +991,7 @@ CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o: ../g2o/stuff/timeutil.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/timeutil.cpp
 
@@ -669,6 +1002,18 @@ CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/timeutil.cpp -o CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/timeutil.cpp
+
+CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/timeutil.cpp > CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.i
+
+CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/timeutil.cpp -o CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o.requires:
 
@@ -683,6 +1028,7 @@ CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o.provides.build: CMakeFiles/g2o.dir/g
 
 CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o: ../g2o/stuff/os_specific.c
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o   -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.c
 
@@ -693,6 +1039,18 @@ CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.i: cmake_force
 CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.s"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.c -o CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o   -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.c
+
+CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.c > CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.i
+
+CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.c -o CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o.requires:
 
@@ -707,6 +1065,7 @@ CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o.provides.build: CMakeFiles/g2o.dir/
 
 CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o: ../g2o/stuff/string_tools.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/string_tools.cpp
 
@@ -717,6 +1076,18 @@ CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/string_tools.cpp -o CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/string_tools.cpp
+
+CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/string_tools.cpp > CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.i
+
+CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/string_tools.cpp -o CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o.requires:
 
@@ -731,6 +1102,7 @@ CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o.provides.build: CMakeFiles/g2o.d
 
 CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o: CMakeFiles/g2o.dir/flags.make
 CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o: ../g2o/stuff/property.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o -c /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/property.cpp
 
@@ -741,6 +1113,18 @@ CMakeFiles/g2o.dir/g2o/stuff/property.cpp.i: cmake_force
 CMakeFiles/g2o.dir/g2o/stuff/property.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/stuff/property.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/property.cpp -o CMakeFiles/g2o.dir/g2o/stuff/property.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o -c /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/property.cpp
+
+CMakeFiles/g2o.dir/g2o/stuff/property.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o.dir/g2o/stuff/property.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/property.cpp > CMakeFiles/g2o.dir/g2o/stuff/property.cpp.i
+
+CMakeFiles/g2o.dir/g2o/stuff/property.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o.dir/g2o/stuff/property.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/property.cpp -o CMakeFiles/g2o.dir/g2o/stuff/property.cpp.s
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o.requires:
 
@@ -819,7 +1203,11 @@ g2o_EXTERNAL_OBJECTS =
 ../lib/libg2o.so: CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o
 ../lib/libg2o.so: CMakeFiles/g2o.dir/build.make
 ../lib/libg2o.so: CMakeFiles/g2o.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX shared library ../lib/libg2o.so"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX shared library ../lib/libg2o.so"
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2o.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -864,6 +1252,10 @@ CMakeFiles/g2o.dir/clean:
 .PHONY : CMakeFiles/g2o.dir/clean
 
 CMakeFiles/g2o.dir/depend:
+<<<<<<< HEAD
 	cd /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/build/CMakeFiles/g2o.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 .PHONY : CMakeFiles/g2o.dir/depend
 

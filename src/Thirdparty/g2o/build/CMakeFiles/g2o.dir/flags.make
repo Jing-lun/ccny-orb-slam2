@@ -7,11 +7,19 @@ C_FLAGS =   -Wall -W -O3 -DNDEBUG -O3 -march=native -fPIC
 
 C_DEFINES = -DUNIX -Dg2o_EXPORTS
 
+<<<<<<< HEAD
 C_INCLUDES = -I/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/core -I/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/types -I/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/stuff -I/usr/include/eigen3 
+=======
+C_INCLUDES = -I/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/core -I/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/types -I/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/stuff -I/usr/local/include/eigen3 
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 CXX_FLAGS =   -Wall -W -O3 -DNDEBUG -O3 -march=native -fPIC  
 
 CXX_DEFINES = -DUNIX -Dg2o_EXPORTS
 
+<<<<<<< HEAD
 CXX_INCLUDES = -I/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/core -I/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/types -I/home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/stuff -I/usr/include/eigen3 
+=======
+CXX_INCLUDES = -I/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/core -I/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/types -I/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/stuff -I/usr/local/include/eigen3 
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 

@@ -48,18 +48,30 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build
+=======
+CMAKE_SOURCE_DIR = /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
 	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +92,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/build/CMakeFiles 0
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 .PHONY : all
 
 # The main clean target

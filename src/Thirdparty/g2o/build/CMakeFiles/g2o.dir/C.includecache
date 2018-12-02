@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.c
 os_specific.h
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.h
 
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.h
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.c
+os_specific.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.h
+
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o/stuff/os_specific.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 stdio.h
 -
 stdlib.h

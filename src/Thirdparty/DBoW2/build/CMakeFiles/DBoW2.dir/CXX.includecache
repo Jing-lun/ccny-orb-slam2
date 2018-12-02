@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.cpp
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.cpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 iostream
 -
 fstream
@@ -18,9 +22,15 @@ algorithm
 cmath
 -
 BowVector.h
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
 
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
+
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 iostream
 -
 map
@@ -28,7 +38,11 @@ map
 vector
 -
 
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FClass.h
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FClass.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 opencv2/core/core.hpp
 -
 vector
@@ -36,7 +50,11 @@ vector
 string
 -
 
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FORB.cpp
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FORB.cpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 vector
 -
 string
@@ -46,9 +64,15 @@ sstream
 stdint-gcc.h
 -
 FORB.h
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FORB.h
 
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FORB.h
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FORB.h
+
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FORB.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 opencv2/core/core.hpp
 -
 vector
@@ -56,11 +80,19 @@ vector
 string
 -
 FClass.h
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FClass.h
 
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
 FeatureVector.h
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FClass.h
+
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
+FeatureVector.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 map
 -
 vector
@@ -68,9 +100,15 @@ vector
 iostream
 -
 
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 BowVector.h
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+BowVector.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 map
 -
 vector
@@ -78,6 +116,7 @@ vector
 iostream
 -
 
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
 cfloat
 -
@@ -91,6 +130,21 @@ BowVector.h
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
 
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
+cfloat
+-
+TemplatedVocabulary.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
+BowVector.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
+
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/ScoringObject.h
+BowVector.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
+
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 cassert
 -
 vector
@@ -108,6 +162,7 @@ opencv2/core/core.hpp
 limits
 -
 FeatureVector.h
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 BowVector.h
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
@@ -125,12 +180,35 @@ cstdlib
 -
 
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Random.h
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+BowVector.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/BowVector.h
+ScoringObject.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DBoW2/ScoringObject.h
+../DUtils/Random.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Random.h
+
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Random.cpp
+Random.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Random.h
+Timestamp.h
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Timestamp.h
+cstdlib
+-
+
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Random.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 cstdlib
 -
 vector
 -
 
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Timestamp.cpp
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Timestamp.cpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 cstdio
 -
 cstdlib
@@ -148,6 +226,7 @@ sys/timeb.h
 sys/time.h
 -
 Timestamp.h
+<<<<<<< HEAD
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Timestamp.h
 
 /home/all3n/catkin_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Timestamp.h
@@ -213,11 +292,79 @@ opencv2/core.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/base.hpp
 opencv2/opencv_modules.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/opencv_modules.hpp
+=======
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Timestamp.h
+
+/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/DBoW2/DUtils/Timestamp.h
+iostream
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv/cxcore.h
+opencv2/core/core_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv/opencv2/core/core_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/features2d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/features2d.hpp
+opencv2/core/affine.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/affine.hpp
+opencv2/calib3d/calib3d_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/calib3d/calib3d_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d/calib3d_c.h
+opencv2/core/core_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d/opencv2/core/core_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core.hpp
+opencv2/core/cvdef.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/cvdef.h
+opencv2/core/version.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/version.hpp
+opencv2/core/base.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/base.hpp
+opencv2/core/cvstd.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/cvstd.hpp
+opencv2/core/traits.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/traits.hpp
+opencv2/core/matx.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/matx.hpp
+opencv2/core/types.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/types.hpp
+opencv2/core/mat.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/mat.hpp
+opencv2/core/persistence.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/persistence.hpp
+opencv2/opencv.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/opencv.hpp
+opencv2/xfeatures2d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/xfeatures2d.hpp
+opencv2/core/operations.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/operations.hpp
+opencv2/core/cvstd.inl.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/cvstd.inl.hpp
+opencv2/core/utility.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/utility.hpp
+opencv2/core/optim.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/optim.hpp
+opencv2/core/ovx.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core/ovx.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/affine.hpp
+opencv2/core.hpp
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/base.hpp
+opencv2/opencv_modules.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/opencv_modules.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 climits
 -
 algorithm
 -
 opencv2/core/cvdef.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/cvdef.h
 opencv2/core/cvstd.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/cvstd.hpp
@@ -259,6 +406,51 @@ limits.h
 -
 opencv2/core/hal/interface.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/hal/interface.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+opencv2/core/cvstd.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvstd.hpp
+opencv2/core/neon_utils.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/neon_utils.hpp
+opencv2/core/vsx_utils.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/vsx_utils.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/bufferpool.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core_c.h
+opencv2/core/types_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/types_c.h
+cxcore.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cxcore.h
+cxcore.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cxcore.h
+opencv2/core/utility.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/utility.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core.hpp
+opencv2/core/cuda_types.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cuda_types.hpp
+opencv2/core/cuda.inl.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cuda.inl.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.inl.hpp
+opencv2/core/cuda.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cuda.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda_types.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cv_cpu_dispatch.h
+cv_cpu_config.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cv_cpu_config.h
+cv_cpu_helper.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cv_cpu_helper.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 emmintrin.h
 -
 pmmintrin.h
@@ -275,6 +467,13 @@ popcntintrin.h
 -
 immintrin.h
 -
+<<<<<<< HEAD
+=======
+arm_neon.h
+-
+immintrin.h
+-
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 immintrin.h
 -
 Intrin.h
@@ -283,12 +482,49 @@ arm_neon.h
 -
 arm_neon.h
 -
+<<<<<<< HEAD
 intrin.h
 -
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/cvstd.hpp
 opencv2/core/cvdef.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/cvdef.h
+=======
+arm_neon.h
+-
+altivec.h
+-
+emmintrin.h
+-
+Intrin.h
+-
+arm_neon.h
+-
+arm_neon.h
+-
+altivec.h
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cv_cpu_helper.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h
+cvconfig.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvconfig.h
+limits.h
+-
+opencv2/core/hal/interface.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/hal/interface.h
+cv_cpu_dispatch.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cv_cpu_dispatch.h
+intrin.h
+-
+array
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.hpp
+opencv2/core/cvdef.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 cstddef
 -
 cstring
@@ -306,14 +542,21 @@ cstdlib
 cmath
 -
 opencv2/core/ptr.inl.hpp
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/ptr.inl.hpp
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/cvstd.inl.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/ptr.inl.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.inl.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 complex
 -
 ostream
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/fast_math.hpp
 opencv2/core/cvdef.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/cvdef.h
@@ -327,6 +570,23 @@ tegra_round.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/tegra_round.hpp
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/hal/interface.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/fast_math.hpp
+opencv2/core/cvdef.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+emmintrin.h
+-
+cmath
+-
+fastmath.h
+-
+math.h
+-
+tegra_round.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/tegra_round.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/hal/interface.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 cstddef
 -
 stddef.h
@@ -338,6 +598,7 @@ cstdint
 stdint.h
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/mat.hpp
 opencv2/core/matx.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/matx.hpp
@@ -401,6 +662,75 @@ opencv2/core/cvdef.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/cvdef.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/types.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.hpp
+opencv2/core/matx.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/matx.hpp
+opencv2/core/types.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/types.hpp
+opencv2/core/bufferpool.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/bufferpool.hpp
+type_traits
+-
+opencv2/core/mat.inl.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/mat.inl.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.inl.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/matx.hpp
+opencv2/core/cvdef.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+opencv2/core/base.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/base.hpp
+opencv2/core/traits.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/traits.hpp
+opencv2/core/saturate.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/saturate.hpp
+initializer_list
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/neon_utils.hpp
+opencv2/core/cvdef.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/operations.hpp
+cstdio
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/optim.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ovx.hpp
+cvdef.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/persistence.hpp
+opencv2/core/types.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/types.hpp
+opencv2/core/mat.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/mat.hpp
+opencv2/opencv.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/opencv.hpp
+time.h
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ptr.inl.hpp
+algorithm
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/saturate.hpp
+opencv2/core/cvdef.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+opencv2/core/fast_math.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/fast_math.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/traits.hpp
+opencv2/core/cvdef.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 climits
 -
 cfloat
@@ -410,6 +740,7 @@ vector
 limits
 -
 opencv2/core/cvdef.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/cvdef.h
 opencv2/core/cvstd.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/cvstd.hpp
@@ -417,12 +748,25 @@ opencv2/core/matx.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/matx.hpp
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/types_c.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+opencv2/core/cvstd.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvstd.hpp
+opencv2/core/matx.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/matx.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types_c.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 ipl.h
 -
 ipl/ipl.h
 -
 opencv2/core/cvdef.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core/cvdef.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 assert.h
 -
 stdlib.h
@@ -432,6 +776,7 @@ string.h
 float.h
 -
 opencv2/core.hpp
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/opencv2/core.hpp
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/core/utility.hpp
@@ -479,14 +824,79 @@ autotuned_index.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/autotuned_index.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/allocator.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/utility.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core.hpp
+ostream
+-
+functional
+-
+opencv2/core/core_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/core_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/version.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/vsx_utils.hpp
+opencv2/core/cvdef.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/opencv2/core/cvdef.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/features2d.hpp
+opencv2/opencv_modules.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/opencv_modules.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/flann/miniflann.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/flann/miniflann.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/flann/miniflann.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/flann/miniflann.hpp
+opencv2/flann/flann_base.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/flann/flann_base.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/all_indices.h
+general.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+kdtree_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_index.h
+kdtree_single_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h
+kmeans_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kmeans_index.h
+composite_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/composite_index.h
+linear_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/linear_index.h
+hierarchical_clustering_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/hierarchical_clustering_index.h
+lsh_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_index.h
+autotuned_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/autotuned_index.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 stdlib.h
 -
 stdio.h
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/any.h
 defines.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/defines.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/any.h
+defines.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 stdexcept
 -
 ostream
@@ -494,6 +904,7 @@ ostream
 typeinfo
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/autotuned_index.h
 general.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
@@ -535,6 +946,51 @@ config.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/config.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/dist.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/autotuned_index.h
+sstream
+-
+general.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+ground_truth.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/ground_truth.h
+index_testing.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/index_testing.h
+sampling.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/sampling.h
+kdtree_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_index.h
+kdtree_single_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h
+kmeans_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kmeans_index.h
+composite_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/composite_index.h
+linear_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/linear_index.h
+logger.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/composite_index.h
+general.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+kdtree_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_index.h
+kmeans_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kmeans_index.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/config.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h
+config.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/config.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 cmath
 -
 cstdlib
@@ -544,6 +1000,7 @@ string.h
 stdint.h
 -
 defines.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/defines.h
 Intrin.h
 -
@@ -551,14 +1008,29 @@ arm_neon.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/arm_neon.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/dynamic_bitset.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h
+Intrin.h
+-
+arm_neon.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/arm_neon.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dynamic_bitset.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 boost/dynamic_bitset.hpp
 -
 limits.h
 -
 dist.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/dist.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/flann_base.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/flann_base.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 vector
 -
 cassert
@@ -566,6 +1038,7 @@ cassert
 cstdio
 -
 general.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
 matrix.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/matrix.h
@@ -587,12 +1060,39 @@ matrix.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/matrix.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/heap.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+params.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h
+saving.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h
+all_indices.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/all_indices.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/ground_truth.h
+dist.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 algorithm
 -
 vector
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/hierarchical_clustering_index.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/hierarchical_clustering_index.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 algorithm
 -
 map
@@ -604,6 +1104,7 @@ limits
 cmath
 -
 general.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
 nn_index.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/nn_index.h
@@ -623,6 +1124,27 @@ saving.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/saving.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/index_testing.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+dist.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+result_set.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h
+heap.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h
+allocator.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h
+random.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h
+saving.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/index_testing.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 cstring
 -
 cassert
@@ -630,6 +1152,7 @@ cassert
 cmath
 -
 matrix.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/matrix.h
 nn_index.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/nn_index.h
@@ -641,6 +1164,19 @@ timer.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/timer.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/kdtree_index.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+result_set.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h
+logger.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h
+timer.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/timer.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_index.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 algorithm
 -
 map
@@ -650,6 +1186,7 @@ cassert
 cstring
 -
 general.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
 nn_index.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/nn_index.h
@@ -669,6 +1206,27 @@ saving.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/saving.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/kdtree_single_index.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+dynamic_bitset.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dynamic_bitset.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+result_set.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h
+heap.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h
+allocator.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h
+random.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h
+saving.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 algorithm
 -
 map
@@ -678,6 +1236,7 @@ cassert
 cstring
 -
 general.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
 nn_index.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/nn_index.h
@@ -695,6 +1254,25 @@ saving.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/saving.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/kmeans_index.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+result_set.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h
+heap.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h
+allocator.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h
+random.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h
+saving.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kmeans_index.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 algorithm
 -
 map
@@ -706,6 +1284,7 @@ limits
 cmath
 -
 general.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
 nn_index.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/nn_index.h
@@ -733,14 +1312,49 @@ nn_index.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/nn_index.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/logger.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+dist.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+result_set.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h
+heap.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h
+allocator.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h
+random.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h
+saving.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h
+logger.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/linear_index.h
+general.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 stdio.h
 -
 stdarg.h
 -
 defines.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/defines.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/lsh_index.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_index.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 algorithm
 -
 cassert
@@ -752,6 +1366,7 @@ map
 vector
 -
 general.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
 nn_index.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/nn_index.h
@@ -771,6 +1386,27 @@ saving.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/saving.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/lsh_table.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+result_set.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h
+heap.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h
+lsh_table.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_table.h
+allocator.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h
+random.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h
+saving.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_table.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 algorithm
 -
 iostream
@@ -788,6 +1424,7 @@ math.h
 stddef.h
 -
 dynamic_bitset.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/dynamic_bitset.h
 matrix.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/matrix.h
@@ -819,12 +1456,49 @@ any.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/any.h
 general.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dynamic_bitset.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+stdio.h
+-
+general.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/miniflann.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/opencv2/core.hpp
+opencv2/flann/defines.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/opencv2/flann/defines.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+general.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+result_set.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h
+params.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h
+any.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/any.h
+general.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 iostream
 -
 map
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/random.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 algorithm
 -
 cstdlib
@@ -832,9 +1506,15 @@ cstdlib
 vector
 -
 general.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/result_set.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 algorithm
 -
 cstring
@@ -848,6 +1528,7 @@ set
 vector
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/sampling.h
 matrix.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/matrix.h
@@ -855,11 +1536,21 @@ random.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/random.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/saving.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/sampling.h
+matrix.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h
+random.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 cstring
 -
 vector
 -
 general.h
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/general.h
 nn_index.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/flann/nn_index.h
@@ -905,6 +1596,53 @@ opencv2/core/core_c.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/imgproc.hpp
 opencv2/core.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/opencv2/core.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h
+nn_index.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/timer.h
+time.h
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/opencv2/core.hpp
+opencv2/core/utility.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/opencv2/core/utility.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/imgcodecs.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/imgcodecs.hpp
+opencv2/videoio.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/videoio.hpp
+opencv2/highgui/highgui_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/highgui/highgui_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/highgui_c.h
+opencv2/core/core_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/opencv2/core/core_c.h
+opencv2/imgproc/imgproc_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/opencv2/imgproc/imgproc_c.h
+opencv2/imgcodecs/imgcodecs_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/opencv2/imgcodecs/imgcodecs_c.h
+opencv2/videoio/videoio_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/opencv2/videoio/videoio_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/opencv.hpp
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs/imgcodecs_c.h
+opencv2/core/core_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs/opencv2/core/core_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 opencv2/core.hpp
 -
 opencv2/imgproc.hpp
@@ -930,6 +1668,7 @@ opencv2/imgproc.hpp
 opencv2/highgui.hpp
 -
 opencv2/imgproc.hpp
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/opencv2/imgproc.hpp
 opencv2/highgui.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/opencv2/highgui.hpp
@@ -947,6 +1686,25 @@ opencv2/core/core_c.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/ml.hpp
 opencv2/core.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/opencv2/core.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/imgproc.hpp
+opencv2/highgui.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/highgui.hpp
+opencv2/imgproc/imgproc_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/imgproc/imgproc_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/imgproc_c.h
+opencv2/imgproc/types_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/types_c.h
+opencv2/core/core_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/opencv2/core/core_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/ml.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 float.h
 -
 map
@@ -954,6 +1712,7 @@ map
 iostream
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/objdetect.hpp
 opencv2/core.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/opencv2/core.hpp
@@ -969,11 +1728,31 @@ vector
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/objdetect/objdetect_c.h
 opencv2/core/core_c.h
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/objdetect/opencv2/core/core_c.h
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/objdetect/detection_based_tracker.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/objdetect/detection_based_tracker.hpp
+opencv2/objdetect/objdetect_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/objdetect/objdetect_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/detection_based_tracker.hpp
+opencv2/core.hpp
+-
+vector
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/objdetect_c.h
+opencv2/core/core_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/opencv2/core/core_c.h
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 deque
 -
 vector
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/opencv.hpp
 opencv2/opencv_modules.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/opencv2/opencv_modules.hpp
@@ -1233,6 +2012,267 @@ opencv2/core.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/core.hpp
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/fast_marching.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp
+opencv2/opencv_modules.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/opencv_modules.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/calib3d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/calib3d.hpp
+opencv2/features2d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/features2d.hpp
+opencv2/flann.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/flann.hpp
+opencv2/highgui.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/highgui.hpp
+opencv2/imgcodecs.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/imgcodecs.hpp
+opencv2/imgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/imgproc.hpp
+opencv2/ml.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/ml.hpp
+opencv2/objdetect.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/objdetect.hpp
+opencv2/photo.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/photo.hpp
+opencv2/shape.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/shape.hpp
+opencv2/stitching.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/stitching.hpp
+opencv2/superres.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/superres.hpp
+opencv2/video.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/video.hpp
+opencv2/videoio.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/videoio.hpp
+opencv2/videostab.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/videostab.hpp
+opencv2/viz.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/viz.hpp
+opencv2/cudaarithm.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudaarithm.hpp
+opencv2/cudabgsegm.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudabgsegm.hpp
+opencv2/cudacodec.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudacodec.hpp
+opencv2/cudafeatures2d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudafeatures2d.hpp
+opencv2/cudafilters.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudafilters.hpp
+opencv2/cudaimgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudaimgproc.hpp
+opencv2/cudaobjdetect.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudaobjdetect.hpp
+opencv2/cudaoptflow.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudaoptflow.hpp
+opencv2/cudastereo.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudastereo.hpp
+opencv2/cudawarping.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/cudawarping.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv_modules.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/imgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/imgproc.hpp
+opencv2/photo/photo_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/photo/photo_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo/photo_c.h
+opencv2/core/core_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo/opencv2/core/core_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape.hpp
+opencv2/shape/emdL1.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/shape/emdL1.hpp
+opencv2/shape/shape_transformer.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/shape/shape_transformer.hpp
+opencv2/shape/hist_cost.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/shape/hist_cost.hpp
+opencv2/shape/shape_distance.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/shape/shape_distance.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/emdL1.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/hist_cost.hpp
+opencv2/imgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/opencv2/imgproc.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_distance.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/opencv2/core.hpp
+opencv2/shape/hist_cost.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/opencv2/shape/hist_cost.hpp
+opencv2/shape/shape_transformer.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/opencv2/shape/shape_transformer.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_transformer.hpp
+vector
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/opencv2/core.hpp
+opencv2/imgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/opencv2/imgproc.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/features2d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/features2d.hpp
+opencv2/stitching/warpers.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/stitching/warpers.hpp
+opencv2/stitching/detail/matchers.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/stitching/detail/matchers.hpp
+opencv2/stitching/detail/motion_estimators.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/stitching/detail/motion_estimators.hpp
+opencv2/stitching/detail/exposure_compensate.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/stitching/detail/exposure_compensate.hpp
+opencv2/stitching/detail/seam_finders.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/stitching/detail/seam_finders.hpp
+opencv2/stitching/detail/blenders.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/stitching/detail/blenders.hpp
+opencv2/stitching/detail/camera.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/stitching/detail/camera.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/blenders.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/exposure_compensate.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+opencv2/features2d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/features2d.hpp
+opencv2/opencv_modules.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/opencv_modules.hpp
+opencv2/xfeatures2d/cuda.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/xfeatures2d/cuda.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/motion_estimators.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+matchers.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp
+util.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp
+camera.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/seam_finders.hpp
+set
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+opencv2/opencv_modules.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/opencv_modules.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp
+list
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+util_inl.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util_inl.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util_inl.hpp
+queue
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+util.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+opencv2/core/cuda.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core/cuda.hpp
+opencv2/imgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/imgproc.hpp
+opencv2/opencv_modules.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/opencv_modules.hpp
+warpers_inl.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers_inl.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers_inl.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/opencv2/core.hpp
+warpers.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp
+limits
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/warpers.hpp
+opencv2/stitching/detail/warpers.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/opencv2/stitching/detail/warpers.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+opencv2/superres/optical_flow.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/superres/optical_flow.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres/optical_flow.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video.hpp
+opencv2/video/tracking.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/video/tracking.hpp
+opencv2/video/background_segm.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/video/background_segm.hpp
+opencv2/video/tracking_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/video/tracking_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/background_segm.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/opencv2/core.hpp
+opencv2/imgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/opencv2/imgproc.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking_c.h
+opencv2/imgproc/types_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/opencv2/imgproc/types_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio/videoio_c.h
+opencv2/core/core_c.h
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio/opencv2/core/core_c.h
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab.hpp
+opencv2/videostab/stabilizer.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/videostab/stabilizer.hpp
+opencv2/videostab/ring_buffer.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/videostab/ring_buffer.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/deblurring.hpp
+vector
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 cmath
 -
 queue
@@ -1240,6 +2280,7 @@ queue
 algorithm
 -
 opencv2/core.hpp
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/core.hpp
 fast_marching_inl.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/fast_marching_inl.hpp
@@ -1255,11 +2296,29 @@ opencv2/core.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/core.hpp
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/global_motion.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+fast_marching_inl.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching_inl.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching_inl.hpp
+opencv2/videostab/fast_marching.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/fast_marching.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/frame_source.hpp
+vector
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/global_motion.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 vector
 -
 fstream
 -
 opencv2/core.hpp
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/core.hpp
 opencv2/features2d.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/features2d.hpp
@@ -1299,11 +2358,53 @@ opencv2/core.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/core.hpp
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/motion_stabilizing.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+opencv2/features2d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/features2d.hpp
+opencv2/opencv_modules.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/opencv_modules.hpp
+opencv2/videostab/optical_flow.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/optical_flow.hpp
+opencv2/videostab/motion_core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/motion_core.hpp
+opencv2/videostab/outlier_rejection.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/outlier_rejection.hpp
+opencv2/cudaimgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/cudaimgproc.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/inpainting.hpp
+vector
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+opencv2/videostab/optical_flow.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/optical_flow.hpp
+opencv2/videostab/fast_marching.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/fast_marching.hpp
+opencv2/videostab/global_motion.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/global_motion.hpp
+opencv2/photo.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/photo.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/log.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_core.hpp
+cmath
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_stabilizing.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 vector
 -
 utility
 -
 opencv2/core.hpp
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/core.hpp
 opencv2/videostab/global_motion.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/videostab/global_motion.hpp
@@ -1331,11 +2432,41 @@ opencv2/imgproc.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/imgproc.hpp
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/stabilizer.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+opencv2/videostab/global_motion.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/global_motion.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/optical_flow.hpp
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+opencv2/opencv_modules.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/opencv_modules.hpp
+opencv2/cudaoptflow.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/cudaoptflow.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/outlier_rejection.hpp
+vector
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+opencv2/videostab/motion_core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/motion_core.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/ring_buffer.hpp
+vector
+-
+opencv2/imgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/imgproc.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/stabilizer.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 vector
 -
 ctime
 -
 opencv2/core.hpp
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/core.hpp
 opencv2/imgproc.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/imgproc.hpp
@@ -1367,6 +2498,39 @@ opencv2/videostab/log.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/videostab/opencv2/videostab/log.hpp
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/viz.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+opencv2/imgproc.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/imgproc.hpp
+opencv2/videostab/global_motion.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/global_motion.hpp
+opencv2/videostab/motion_stabilizing.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/motion_stabilizing.hpp
+opencv2/videostab/frame_source.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/frame_source.hpp
+opencv2/videostab/log.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/log.hpp
+opencv2/videostab/inpainting.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/inpainting.hpp
+opencv2/videostab/deblurring.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/deblurring.hpp
+opencv2/videostab/wobble_suppression.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/wobble_suppression.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/wobble_suppression.hpp
+vector
+-
+opencv2/core.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core.hpp
+opencv2/core/cuda.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/core/cuda.hpp
+opencv2/videostab/global_motion.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/global_motion.hpp
+opencv2/videostab/log.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/opencv2/videostab/log.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 opencv2/viz/types.hpp
 -
 opencv2/viz/widgets.hpp
@@ -1376,7 +2540,11 @@ opencv2/viz/viz3d.hpp
 opencv2/viz/vizcore.hpp
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/viz/types.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/types.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 string
 -
 opencv2/core.hpp
@@ -1384,7 +2552,11 @@ opencv2/core.hpp
 opencv2/core/affine.hpp
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/viz/viz3d.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/viz3d.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 opencv2/core.hpp
 -
 opencv2/viz/types.hpp
@@ -1392,7 +2564,11 @@ opencv2/viz/types.hpp
 opencv2/viz/widgets.hpp
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/viz/vizcore.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/vizcore.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 opencv2/viz/types.hpp
 -
 opencv2/viz/widgets.hpp
@@ -1400,6 +2576,7 @@ opencv2/viz/widgets.hpp
 opencv2/viz/viz3d.hpp
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/viz/widgets.hpp
 opencv2/viz/types.hpp
 -
@@ -1417,4 +2594,23 @@ opencv2/core/cuda.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/xfeatures2d/nonfree.hpp
 opencv2/features2d.hpp
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv2/xfeatures2d/opencv2/features2d.hpp
+=======
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/widgets.hpp
+opencv2/viz/types.hpp
+-
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d.hpp
+opencv2/features2d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/features2d.hpp
+opencv2/xfeatures2d/nonfree.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv2/xfeatures2d/nonfree.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/cuda.hpp
+opencv2/core/cuda.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/opencv2/core/cuda.hpp
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/nonfree.hpp
+opencv2/features2d.hpp
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/opencv2/features2d.hpp
+>>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
