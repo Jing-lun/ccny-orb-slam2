@@ -1,0 +1,15 @@
+<launch>
+
+  <!-- load kinect2_bridge -->
+  <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch" />
+
+  <!-- load wisebot_min -->
+  <include file="$(find wisebot_driver)/launch/wisebot_min.launch" />
+
+
+  <!-- load imu -->
+  <include file="$(find imu_os3dm)/launch/imu_os3dm.launch" />
+
+
+
+</launch>

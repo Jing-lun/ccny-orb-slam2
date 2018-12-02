@@ -1,0 +1,20 @@
+<launch>
+
+  <!-- load kinect2_bridge -->
+  <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch" />
+
+
+  <!-- load wisebot_min -->
+  <include file="$(find wisebot_driver)/launch/wisebot_min.launch" />
+
+
+  <!-- load aimr -->
+  <include file="$(find aimr_power)/launch/aimr_power.launch" />
+
+  <!-- load rslidar -->
+  <include file="$(find rslidar_pointcloud)/launch/one.launch" />
+
+  <!-- load mti-700 -->
+  <include file="$(find xsens_driver)/launch/xsens_driver.launch" />
+
+</launch>
