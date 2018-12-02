@@ -160,11 +160,7 @@ void PangolinViewer::Run()
         if(save)
         {
             std::chrono::steady_clock::time_point t1=std::chrono::steady_clock::now();
-<<<<<<< HEAD
             mpSystem->SaveMap("/home/all3n/viorb_config/save_map/mapdata.bin");
-=======
-            mpSystem->SaveMap("/home/robooster/viorb_config/save_map/mapdata.bin");
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
             std::chrono::steady_clock::time_point t2=std::chrono::steady_clock::now();
             double  tsave=std::chrono::duration_cast<std::chrono::duration<double> >(t2 - t1).count();
             cout<<"--saved within "<<tsave<<"s"<<endl;

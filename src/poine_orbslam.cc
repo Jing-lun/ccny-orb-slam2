@@ -18,10 +18,7 @@
   #include <algorithm>
   #include <image_transport/image_transport.h>
   #include <image_transport/subscriber_filter.h>
-<<<<<<< HEAD
   #include "poine_orbslam/Matrix.h"
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
   
   #include <message_filters/subscriber.h>
   #include <message_filters/synchronizer.h>
@@ -31,16 +28,12 @@
   #include <kinect2_bridge/kinect2_definitions.h>
 
   #include "System.h"
-<<<<<<< HEAD
   #include "Converter.h"
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
   #include "pointcloudmapping.h"
   #include "PangolinViewer.h"
   #include "Viewer.h"
   #include <signal.h>  
   #include <geometry_msgs/Twist.h> 
-<<<<<<< HEAD
   #include <nav_msgs/Odometry.h>
   #include <sensor_msgs/Imu.h>
   // #include "imu_os3dm/imu.h"
@@ -272,14 +265,6 @@
       strftime(tmp, sizeof(tmp), "%Y-%m-%d_%H:%M:%S",localtime(&timep) );
       return tmp;
   }
-=======
-  ros::Publisher cmdVelPub;
-
-  void shutdown(int sig)  
-  {
-    ros::shutdown();  
-  } 
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
   class Receiver
   {
@@ -327,10 +312,7 @@ private:
   
     //RGBDSLAM  slam; //the slam object
     ORB_SLAM2::System* orbslam    =nullptr;
-<<<<<<< HEAD
     string tat;
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
  public:
     Receiver(const std::string &topicColor, const std::string &topicDepth, const bool useExact, const bool useCompressed)
@@ -348,16 +330,10 @@ private:
       params.push_back(cv::IMWRITE_PNG_STRATEGY_RLE);
       params.push_back(0);
   
-<<<<<<< HEAD
       string orbVocFile = "/home/all3n/viorb_config/config/ORBvoc.bin";
       //string orbVocFile = "/home/robooster/viorb_config/config/ORBvoc.txt";
       string orbSetiingsFile = "/home/all3n/viorb_config/config/kinect2_sd.yaml";
 
-=======
-      string orbVocFile = "/home/jinglun/viorb_config/config/ORBvoc.bin";
-      //string orbVocFile = "/home/robooster/viorb_config/config/ORBvoc.txt";
-      string orbSetiingsFile = "/home/jinglun/viorb_config/config/kinect2_sd.yaml";
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
       #if 1
       ORB_SLAM2::Viewer* viewer;
       viewer = new ORB_SLAM2::PangolinViewer(orbSetiingsFile);
@@ -403,10 +379,7 @@ private:
            delete orbslam;
        }
    }
-<<<<<<< HEAD
    
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
  
    void run(const Mode mode)
    {
@@ -518,16 +491,12 @@ private:
      lock.unlock();
    }
 
-<<<<<<< HEAD
    
 
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
    void imageViewer()
    {
      
      cv::Mat color, depth;
-<<<<<<< HEAD
      char bck[100]="~/";
      char colorfile[10] = "/color";
      char depthfile[10] = "/depth";
@@ -546,8 +515,6 @@ private:
      strcat(bak2,nyx);
      strcat(bak2,depthfile);
      system(bak2); 
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
      for(; running && ros::ok();)
      {
        if(updateImage)
@@ -561,11 +528,7 @@ private:
          if (orbslam)
          {
 
-<<<<<<< HEAD
           orbslam->TrackRGBD( color, depth, ros::Time::now().toSec(),tat );
-=======
-          orbslam->TrackRGBD( color, depth, ros::Time::now().toSec() );
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
          }
 
@@ -668,7 +631,6 @@ private:
    {
      return 0;
    }
-<<<<<<< HEAD
    
    ros::NodeHandle nh;
    ros::Subscriber sub;
@@ -687,10 +649,6 @@ private:
    //outfile2<<"gyro_x"<<"\t\t\t "<<"gyro_y"<<"\t\t\t "<<"gyro_z"<<"\t\t\t "<<endl;
    std::string topicColor = "/kinect2/qhd/image_color_rect";
    std::string topicDepth = "/kinect2/qhd/image_depth_rect";
-=======
-   std::string topicColor = "/kinect2/sd/image_color_rect";
-   std::string topicDepth = "/kinect2/sd/image_depth_rect";
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
    bool useExact = true;
    bool useCompressed = false;
    Receiver::Mode mode = Receiver::IMAGE;
@@ -702,11 +660,8 @@ private:
  
    receiver.finish();
 
-<<<<<<< HEAD
    
 
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
    ros::shutdown();
  
 return 0;

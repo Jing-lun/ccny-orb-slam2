@@ -9,41 +9,25 @@ ENDIF()
 
 
 MESSAGE("Build type: " ${CMAKE_BUILD_TYPE})
-<<<<<<< HEAD
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -Wall  -O3 -march=native ")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall   -O3 -mtune=native")
 
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DBT_USE_DOUBLE_PRECISION -Wall")
-# Unused warnings
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter")
-# # Additional warnings
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -Wlogical-op")
-=======
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -Wall  -O3 -march=native ")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O3 -march=native")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DBT_USE_DOUBLE_PRECISION -Wall")
-# Unused warnings
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter")
-# Additional warnings
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -Wlogical-op")
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
-
-# Check for c++11 support
-INCLUDE(CheckCXXCompilerFlag)
+# Check C++11 or C++0x support
+include(CheckCXXCompilerFlag)
 CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
 CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
-IF(COMPILER_SUPPORTS_CXX11)
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+if(COMPILER_SUPPORTS_CXX11)
+   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
    add_definitions(-DCOMPILEDWITHC11)
    message(STATUS "Using flag -std=c++11.")
-ELSEIF(COMPILER_SUPPORTS_CXX0X)
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+elseif(COMPILER_SUPPORTS_CXX0X)
+   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
    add_definitions(-DCOMPILEDWITHC0X)
    message(STATUS "Using flag -std=c++0x.")
-ELSE()
-  MESSAGE(ERROR "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
-ENDIF()
+else()
+   message(FATAL_ERROR "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
+endif()
 ## Find catkin macros and libraries
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -53,13 +37,10 @@ find_package(catkin REQUIRED COMPONENTS
   compressed_image_transport
   cv_bridge
   image_transport
-<<<<<<< HEAD
   kinect2_bridge
   message_filters
-=======
   message_filters
   kinect2_bridge
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
   roscpp
   rostime
   rosbag
@@ -72,21 +53,15 @@ find_package(catkin REQUIRED COMPONENTS
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 find_package(OpenCV REQUIRED)
-<<<<<<< HEAD
 find_package(Eigen3 3.1.0 REQUIRED)
-=======
 find_package(Eigen3 REQUIRED)
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 find_package(Pangolin REQUIRED)
 find_package( G2O REQUIRED )
 find_package(OpenMP)
 find_package(Pangolin 0.1 REQUIRED)
 find_package(PCL REQUIRED)
-<<<<<<< HEAD
 find_package(kinect2_bridge REQUIRED)
 
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 link_directories(${PCL_LIBRARY_DIRS})
 LINK_LIBRARIES(${PCL_LIBRARY_DIRS})
 FIND_PACKAGE(VTK REQUIRED)
@@ -225,11 +200,8 @@ endif()
 # )
 
 ###################################
-<<<<<<< HEAD
 ## catkin specific  ##
-=======
 ## catkin specific configuration ##
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 ###################################
 ## The catkin_package macro generates cmake config files for your package
 ## Declare things to be passed to dependent projects
@@ -242,11 +214,8 @@ catkin_package(
 #  LIBRARIES poine_orb
   CATKIN_DEPENDS 
   rosbag
-<<<<<<< HEAD
  cv_bridge kinect2_bridge
-=======
 #  cv_bridge kinect2_bridge
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 #  DEPENDS system_lib
 	message_runtime
 )
@@ -276,21 +245,15 @@ include_directories(/usr/include/eigen3)
 include_directories(/usr/include/flann)
 include_directories(/usr/include/qhull)
 include_directories(/usr/local/include/g2o)
-<<<<<<< HEAD
 include_directories(/home/robooster/poine_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o)
-=======
 include_directories(/home/jinglun/orbslam_imu_ws/src/poine_orbslam/src/Thirdparty/g2o/g2o)
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 include_directories(${VTK_INCLUDE_DIRS})
 include_directories(
   ${catkin_INCLUDE_DIRS}
   ${OpenCV_INCLUDE_DIRS}
   ${PCL_INCLUDE_DIRS}
-<<<<<<< HEAD
   ${kinect2_bridge_INCLUDE_DIRS}
-=======
 	${kinect2_bridge_INCLUDE_DIRS}
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 )
 ## Your package locations should be listed before other locations
 include_directories(
@@ -333,17 +296,14 @@ include_directories(
 #############
 add_executable(poine_orbslam src/poine_orbslam.cc)
 
-<<<<<<< HEAD
 add_executable(view_map src/view_map.cc)
 
 # add_executable(ros_vio src/ros_vio.cc)
 
 # add_executable(rgbd src/ros_rgbd.cc)
-=======
 
 list(REMOVE_ITEM PCL_LIBRARIES "vtkproj4")
 add_executable(rgbd src/ros_rgbd.cc)
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 add_library(libofpoine_orbslam SHARED
 src/Camera.cc
@@ -383,7 +343,6 @@ src/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp
 src/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp
 )
 
-<<<<<<< HEAD
 target_link_libraries(poine_orbslam
    #${LIBG2O_LIBRARY}
    ${catkin_LIBRARIES}
@@ -461,7 +420,6 @@ ${PROJECT_SOURCE_DIR}/lib/liblibofkinect2_orbslam.so
 # ${PROJECT_SOURCE_DIR}/src/Thirdparty/g2o/lib/libg2o.so
 # )
 
-=======
 target_link_libraries(rgbd
    #${LIBG2O_LIBRARY}
 	# ${PROJECT_SOURCE_DIR}/lib/liblibofpoine_orbslam
@@ -502,7 +460,6 @@ target_link_libraries(poine_orbslam
 	${PROJECT_SOURCE_DIR}/src/Thirdparty/g2o/lib/libg2o.so
 )
 
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 # all install targets should use catkin DESTINATION variables
 # See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html
 
@@ -546,3 +503,34 @@ target_link_libraries(poine_orbslam
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/RGB-D)
+
+# add_executable(rgbd_tum
+# Examples/RGB-D/rgbd_tum.cc)
+# target_link_libraries(rgbd_tum libofpoine_orbslam)
+
+# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Stereo)
+
+# add_executable(stereo_kitti
+# Examples/Stereo/stereo_kitti.cc)
+# target_link_libraries(stereo_kitti libofpoine_orbslam)
+
+# add_executable(stereo_euroc
+# Examples/Stereo/stereo_euroc.cc)
+# target_link_libraries(stereo_euroc libofpoine_orbslam)
+
+
+# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Monocular)
+
+# add_executable(mono_tum
+# Examples/Monocular/mono_tum.cc)
+# target_link_libraries(mono_tum libofpoine_orbslam)
+
+# add_executable(mono_kitti
+# Examples/Monocular/mono_kitti.cc)
+# target_link_libraries(mono_kitti libofpoine_orbslam)
+
+# add_executable(mono_euroc
+# Examples/Monocular/mono_euroc.cc)
+# target_link_libraries(mono_euroc libofpoine_orbslam)
+

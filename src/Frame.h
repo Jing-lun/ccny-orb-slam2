@@ -79,7 +79,6 @@ public:
         return mRwc.clone();
     }
 
-<<<<<<< HEAD
     inline void InitializeScaleLevels() {
     mnScaleLevels = mpORBextractorLeft->GetLevels();
     mfScaleFactor = mpORBextractorLeft->GetScaleFactor();
@@ -90,8 +89,6 @@ public:
     mvInvLevelSigma2 = mpORBextractorLeft->GetInverseScaleSigmaSquares();
     }
 
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
     // Check if a MapPoint is in the frustum of the camera
     // and fill variables of the MapPoint to be used by the tracking
     bool isInFrustum(MapPoint* pMP, float viewingCosLimit);
@@ -187,11 +184,7 @@ public:
     // Only for the RGB-D case. Stereo must be already rectified!
     // (called in the constructor).
     void UndistortKeyPoints();
-<<<<<<< HEAD
 	// void InitializeScaleLevels();
-=======
-	void InitializeScaleLevels();
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 	static void InitializeClass();
     // Assign keypoints to the grid for speed up feature matching (called in the constructor).
 

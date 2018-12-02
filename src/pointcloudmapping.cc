@@ -36,10 +36,6 @@
 #include <vector>
 #include <mutex>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 PointCloudMapping::PointCloudMapping(double resolution_)
 {
     cout<<"--This is PointCloud Constructor"<<endl;
@@ -51,11 +47,8 @@ PointCloudMapping::PointCloudMapping(double resolution_)
     //mpviewer = new PointCloudMapping::viewer();
     //mptViewer = new thread(&PointCloudMapping::viewer::Run, mpViewer);
     viewerThread = make_shared<thread>( bind(&PointCloudMapping::viewer, this ) );
-<<<<<<< HEAD
     // globalpointcloud.reserve(1000000);
     newpointcloud.reserve(1000000);
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 }
 
 void PointCloudMapping::shutdown()
@@ -83,10 +76,7 @@ void PointCloudMapping::insertKeyFrame(KeyFrame* kf, cv::Mat& color, cv::Mat& de
 pcl::PointCloud< PointCloudMapping::PointT >::Ptr PointCloudMapping::generatePointCloud(KeyFrame* kf, cv::Mat& color, cv::Mat& depth)
 {
     PointCloud::Ptr tmp( new PointCloud() );
-<<<<<<< HEAD
     Eigen::Isometry3d T = ORB_SLAM2::Converter::toSE3Quat( kf->GetPose() );
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
     // point cloud is null ptr
     for ( int m=0; m<depth.rows; m+=3 )
     {
@@ -105,7 +95,6 @@ pcl::PointCloud< PointCloudMapping::PointT >::Ptr PointCloudMapping::generatePoi
             p.r = color.ptr<uchar>(m)[n*3+2];
                 
             tmp->points.push_back(p);
-<<<<<<< HEAD
 
             // Eigen::Vector3d newpoint;
             // newpoint[2] = double(d);
@@ -170,33 +159,6 @@ void PointCloudMapping::viewer()
     pcl::visualization::CloudViewer viewer("viewer");
     while(1)
     {
-=======
-        }
-    }
-    
-    Eigen::Isometry3d T = ORB_SLAM2::Converter::toSE3Quat( kf->GetPose() );
-    PointCloud::Ptr cloud(new PointCloud);
-    pcl::transformPointCloud( *tmp, *cloud, T.inverse().matrix());
-    cloud->is_dense = false;
-    
-    cout<<"generate point cloud for kf "<<kf->mnId<<", size="<<cloud->points.size()<<endl;
-    return cloud;
-}
-
-
-void PointCloudMapping::viewer()
-{
-    //viewerThread->join();
-    //cout<<"--PointCloud Viewer starts!"<<endl;
-    pcl::visualization::CloudViewer viewer("viewer");
-	PointCloud::Ptr tmpcloud(new PointCloud());
-	pass.setFilterFieldName("z");
-    pass.setFilterLimits( 0.0, 4.0 ); //4m以上就不要了
-
-    while(1)
-    {
-        //cout<<"PointCloud Viewer has joined in a loop"<<endl;
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
         {
             unique_lock<mutex> lck_shutdown( shutDownMutex );
             if (shutDownFlag)
@@ -217,7 +179,6 @@ void PointCloudMapping::viewer()
             N = keyframes.size();
         }
         
-<<<<<<< HEAD
         // for ( size_t i=lastKeyframeSize; i<N ; i++ )
         // {
         //     cout<<"--PointCloud Viewer has joined in generatePointCloud"<<endl;
@@ -243,46 +204,10 @@ void PointCloudMapping::viewer()
         viewer.showCloud(globalMap);
         cout<<"show globalMap size="<<globalMap->points.size()<<endl;
         // showPointCloud(newpointcloud);
-=======
-        for ( size_t i=lastKeyframeSize; i<N ; i++ )
-        {
-            //cout<<"--PointCloud Viewer has joined in generatePointCloud"<<endl;
-            PointCloud::Ptr p = generatePointCloud( keyframes[i], colorImgs[i], depthImgs[i] );
-            //以下为20170929新增
-            PointCloud::Ptr tmp(new PointCloud());
-            voxel.setInputCloud( p );
-            voxel.filter( *tmpcloud );
-            pass.setInputCloud( tmpcloud );
-            pass.filter( *p );
-            //pcl::transformPointCloud( *tmp, *p, T.inverse().matrix());
-            *globalMap += *p;
-            p->clear();
-            tmp->clear();
-            //以上为新增内容
-        }
-        //voxel.setInputCloud( globalMap );
-        //voxel.filter( *p );
-        //pcl::io::savePCDFile( "./orbcloud.pcd", *p);
-        //cout<<"show tmp size="<<tmp->points.size()<<endl;
-
-        PointCloud::Ptr filtercloud(new PointCloud());
-        voxel.setInputCloud( globalMap );
-        voxel.filter( *filtercloud );
-		globalMap->swap( *filtercloud );
-
-        //globalMap->height=1;
-        //globalMap->width=globalMap->points.size();
-        //globalMap->is_dense=false;
-        //pcl::io::savePCDFile( "/home/jinglun/viorb_config/global_cloud.pcd", *globalMap );
-        boost::this_thread::sleep(boost::posix_time::microseconds (100000));
-        viewer.showCloud(globalMap);
-        cout<<"show globalMap size="<<globalMap->points.size()<<endl;
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
         lastKeyframeSize = N;
     }
 }
 
-<<<<<<< HEAD
 void PointCloudMapping::showPointCloud(const vector<Vector6d> &pointcloud) {
     if (pointcloud.empty()) {
         cerr << "Point cloud is empty!" << endl;
@@ -321,16 +246,3 @@ void PointCloudMapping::showPointCloud(const vector<Vector6d> &pointcloud) {
     }
     return;
 }
-=======
-void PointCloudMapping::savePointCloudToPcd()
-{
-	    cout<<"Saving the cloud."<<endl;
-	    globalMap->height = 1;
-	    globalMap->width = globalMap->points.size();
-	    globalMap->is_dense = false;
-	    pcl::io::savePCDFile( "/home/jinglun/viorb_config/global_cloud.pcd", *globalMap);
-	    globalMap->points.clear();
-	    cout<<"Point cloud saved."<<endl;
-}
-
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6

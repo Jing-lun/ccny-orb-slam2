@@ -56,13 +56,8 @@ int main(int argc, char **argv)
     ros::start();
 
     //ORB_SLAM2::System* orbslam = nullptr;
-<<<<<<< HEAD
     string orbVocFile = "/home/all3n/viorb_config/config/ORBvoc.bin";
     string orbSetiingsFile = "/home/all3n/viorb_config/config/kinect2_sd.yaml";
-=======
-    string orbVocFile = "/home/jinglun/viorb_config/config/ORBvoc.bin";
-    string orbSetiingsFile = "/home/jinglun/viorb_config/config/kinect2_sd.yaml";
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
     #if 1
     ORB_SLAM2::Viewer* viewer;
@@ -77,32 +72,19 @@ int main(int argc, char **argv)
     ros::NodeHandle nh;
 
     //message_filters::Subscriber<sensor_msgs::Image> rgb_sub(nh, "/camera/rgb/image_raw", 1);
-<<<<<<< HEAD
     //message_filters::Subscriber<sensor_msgs::Image> depth_sub(nh, "camera/depth_registered/image_raw", 1);
-=======
-    //message_filters::Subscriber<sensor_msgs::Image> depth_sub(nh, "/camera/depth_registered/image_raw", 1);
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 	message_filters::Subscriber<sensor_msgs::Image> rgb_sub(nh, "/kinect2/qhd/image_color_rect", 1);
     message_filters::Subscriber<sensor_msgs::Image> depth_sub(nh, "/kinect2/qhd/image_depth_rect", 1);
     typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::Image, sensor_msgs::Image> sync_pol;
     message_filters::Synchronizer<sync_pol> sync(sync_pol(10), rgb_sub,depth_sub);
     sync.registerCallback(boost::bind(&ImageGrabber::GrabRGBD,&igb,_1,_2));
 
-<<<<<<< HEAD
     // ofstream outfile("//home//robooster//Desktop//odometry_data.txt");
     // outfile<<"world_time"<<"\t\t  "<<"left"<<"\t\t\t\t"<<"front"<<"\t\t\t\t"<<"above"<<endl;
     // ofstream outfile1("//home//robooster//Desktop//orbslam_data.txt");
     // outfile1<<"world_time"<<"\t\t  "<<"q_x"<<"\t\t\t\t"<<"q_y"<<"\t\t\t\t"<<"q_z"<<"\t\t\t\t"<<"q_w"<<"\t\t\t\t"<<"left"<<"\t\t\t\t"<<"front"<<"\t\t\t\t"<<"above"<<"\t\t\t\t"<<endl;
     // ofstream outfile2("//home//robooster//Desktop//imu_data_raw.txt");
     // outfile2<<"world_time"<<"\t\t  "<<"q_x"<<"\t\t\t\t"<<"q_y"<<"\t\t\t\t"<<"q_z"<<"\t\t\t\t"<<"q_w"<<endl;
-=======
-    //ofstream outfile("//home//robooster//Desktop//odometry_data.txt");
-    //outfile<<"world_time"<<"\t\t  "<<"left"<<"\t\t\t\t"<<"front"<<"\t\t\t\t"<<"above"<<endl;
-    //ofstream outfile1("//home//robooster//Desktop//orbslam_data.txt");
-    //outfile1<<"world_time"<<"\t\t  "<<"q_x"<<"\t\t\t\t"<<"q_y"<<"\t\t\t\t"<<"q_z"<<"\t\t\t\t"<<"q_w"<<"\t\t\t\t"<<"left"<<"\t\t\t\t"<<"front"<<"\t\t\t\t"<<"above"<<"\t\t\t\t"<<endl;
-    //ofstream outfile2("//home//robooster//Desktop//imu_data_raw.txt");
-    //outfile2<<"world_time"<<"\t\t  "<<"q_x"<<"\t\t\t\t"<<"q_y"<<"\t\t\t\t"<<"q_z"<<"\t\t\t\t"<<"q_w"<<endl;
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
     ros::spin();
 

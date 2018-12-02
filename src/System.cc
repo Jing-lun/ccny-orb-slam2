@@ -379,11 +379,7 @@ void System::Reset()
 
 void System::Shutdown()
 {
-<<<<<<< HEAD
     // mpPointCloudMapping->savePointCloudToPcd();
-=======
-	mpPointCloudMapping->savePointCloudToPcd();
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
     mpLocalMapper->RequestFinish();
     mpLoopCloser->RequestFinish();
     if (mpViewer != NULL)
@@ -410,11 +406,7 @@ void System::Shutdown()
 Map* System::GetMap() {return this->mpMap;}
 
 bool System::SaveMap(const string &filename) {
-<<<<<<< HEAD
   cerr << "Map Saving to " << filename << endl;
-=======
-  cerr << "System Saving to " << filename << endl;
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
   return mpMap->Save(filename);
 }
 

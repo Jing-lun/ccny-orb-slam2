@@ -27,7 +27,6 @@
 #include "Thirdparty/g2o/g2o/core/robust_kernel_impl.h"
 #include "Thirdparty/g2o/g2o/solvers/linear_solver_dense.h"
 #include "Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"
-<<<<<<< HEAD
 // #include <g2o/core/block_solver.h>
 // #include <g2o/core/optimization_algorithm_levenberg.h>
 // #include <g2o/solvers/eigen/linear_solver_eigen.h>
@@ -35,8 +34,6 @@
 // #include <g2o/core/robust_kernel_impl.h>
 // #include <g2o/solvers/dense/linear_solver_dense.h>
 // #include <g2o/types/sim3/types_seven_dof_expmap.h>
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
 #include<Eigen/StdVector>
 

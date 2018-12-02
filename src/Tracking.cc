@@ -21,10 +21,7 @@
 
 #include "Tracking.h"
 
-<<<<<<< HEAD
 #include<ros/ros.h>
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 #include <cv_bridge/cv_bridge.h>
 #include <message_filters/subscriber.h>
 #include <message_filters/time_synchronizer.h>
@@ -53,7 +50,6 @@
 
 
 using namespace std;
-<<<<<<< HEAD
 #if 0
 void GrabRGBD_IMU(const poine_orbslam::MatrixConstPtr orb_msg, const sensor_msgs::ImuConstPtr& imu_msg, const nav_msgs::OdometryConstPtr& odom_msg)
 {
@@ -103,9 +99,6 @@ void GrabRGBD_IMU(const poine_orbslam::MatrixConstPtr orb_msg, const sensor_msgs
     #endif
 }
 #endif
-=======
-
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 namespace ORB_SLAM2
 {
 
@@ -121,13 +114,8 @@ Tracking::Tracking(System *pSys, ORBVocabulary* pVoc, Map *pMap, shared_ptr<Poin
 	mpReferenceKF = akf[0];
   }
 
-<<<<<<< HEAD
     path_pub_ = nh.advertise<nav_msgs::Path >("/orbslam/path", 5);
     //pose_pub_ = nh.advertise<geometry_msgs::PoseStamped >("/orbslam/pose", 5);
-=======
-    path_pub_ = nh.advertise<nav_msgs::Path >("/slam/path", 5);
-    pose_pub_ = nh.advertise<geometry_msgs::PoseStamped >("/slam/pose", 5);
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
     // Load camera parameters from settings file
 
@@ -203,11 +191,7 @@ void Tracking::publishPath( tf::Transform& tfTcw)
   pose_stamped.header.frame_id = fixed_frame_;
   pose_stamped.header.stamp = ros::Time::now();
   tf::poseTFToMsg(tfTcw, pose_stamped.pose);
-<<<<<<< HEAD
   //pose_pub_.publish(pose_stamped);
-=======
-  pose_pub_.publish(pose_stamped);
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
   path_msg_.poses.push_back(pose_stamped);
   path_pub_.publish(path_msg_);
@@ -307,14 +291,6 @@ cv::Mat Tracking::GrabImageRGBD(const cv::Mat &imRGB,const cv::Mat &imD, const d
         tf::Matrix3x3 M(Rwc.at<float>(0,0),Rwc.at<float>(0,1),Rwc.at<float>(0,2),
                         Rwc.at<float>(1,0),Rwc.at<float>(1,1),Rwc.at<float>(1,2),
                         Rwc.at<float>(2,0),Rwc.at<float>(2,1),Rwc.at<float>(2,2));
-<<<<<<< HEAD
-=======
-        tf::Matrix3x3 inverRot(0.0, 0.0, 1.0,
-        		               0.0, 1.0, 0.0,
-        		               1.0, 0.0, 0.0 );
-
-       //M = M*inverRot;
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
         tf::Vector3 V(twc.at<float>(0), twc.at<float>(1), twc.at<float>(2));
 
@@ -323,10 +299,7 @@ cv::Mat Tracking::GrabImageRGBD(const cv::Mat &imRGB,const cv::Mat &imD, const d
         publishPath(tfTcw);
     }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
     return mCurrentFrame.mTcw.clone();
 }
 
@@ -1821,11 +1794,7 @@ void Tracking::CreateNewKeyFrame()
     mpLocalMapper->SetNotStop(false);
 
     //mpPointCloudMapping->PointCloudMapping::insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
-<<<<<<< HEAD
     mpPointCloudMapping->insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
-=======
-    //mpPointCloudMapping->insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
     mnLastKeyFrameId = mCurrentFrame.mnId;
     mpLastKeyFrame = pKF;
@@ -1840,10 +1809,7 @@ void Tracking::CreateNewKeyFrame(string tat)
     stringstream fsave;
     stringstream fdsave;
     stringstream sty;
-<<<<<<< HEAD
     stringstream skr;
-=======
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
     KeyFrame* pKF = new KeyFrame(mCurrentFrame,mpMap,mpKeyFrameDB);
 
     mpReferenceKF = pKF;
@@ -1914,7 +1880,6 @@ void Tracking::CreateNewKeyFrame(string tat)
     mpLocalMapper->InsertKeyFrame(pKF);
 
     mpLocalMapper->SetNotStop(false);
-<<<<<<< HEAD
 
     sty<<"/home/all3n/"<<tat<<"/color/";
     string acd1;
@@ -1940,23 +1905,6 @@ void Tracking::CreateNewKeyFrame(string tat)
     cv::imwrite(dasave,this->mImDepth);
     //mpPointCloudMapping->PointCloudMapping::insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
     mpPointCloudMapping->insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
-=======
-    sty<<"/home/jinglun/"<<tat<<"/";
-    string acd;
-    sty>>acd;
-    cout<<acd<<endl;
-    fsave<<acd<<"KeyFrame_ID"<<pKF->mnId <<".png";
-    fdsave<<acd<<"KeyFrame_Depth_ID"<<pKF->mnId<<".png";
-    fsave>>dsave;
-    fdsave>>dasave;
-
-    cout<<dsave<<endl;
-    cout<<dasave<<endl;
-
-    cv::imwrite(dsave,this->mImRGB);
-    cv::imwrite(dasave,this->mImDepth);
-    //mpPointCloudMapping->insertKeyFrame( pKF, this->mImRGB, this->mImDepth );
->>>>>>> d44933e8356f6014b6c205e747bf5c9be8dd54d6
 
     mnLastKeyFrameId = mCurrentFrame.mnId;
     mpLastKeyFrame = pKF;
