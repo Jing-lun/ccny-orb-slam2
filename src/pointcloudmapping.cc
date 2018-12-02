@@ -76,6 +76,7 @@ void PointCloudMapping::insertKeyFrame(KeyFrame* kf, cv::Mat& color, cv::Mat& de
 pcl::PointCloud< PointCloudMapping::PointT >::Ptr PointCloudMapping::generatePointCloud(KeyFrame* kf, cv::Mat& color, cv::Mat& depth)
 {
     PointCloud::Ptr tmp( new PointCloud() );
+    Eigen::Isometry3d T = ORB_SLAM2::Converter::toSE3Quat( kf->GetPose() );
     // point cloud is null ptr
     for ( int m=0; m<depth.rows; m+=3 )
     {
@@ -94,10 +95,22 @@ pcl::PointCloud< PointCloudMapping::PointT >::Ptr PointCloudMapping::generatePoi
             p.r = color.ptr<uchar>(m)[n*3+2];
                 
             tmp->points.push_back(p);
+
+            // Eigen::Vector3d newpoint;
+            // newpoint[2] = double(d);
+            // newpoint[0] = ( n - Camera::cx ) * newpoint[2] / Camera::fx;
+            // newpoint[1] = ( m - Camera::cy ) * newpoint[2] / Camera::fy;
+            // Eigen::Vector3d pointWorld = T * newpoint;
+
+            // Vector6d newp;
+            // newp.head<3>() = pointWorld;
+            // newp[5] = color.data[m * color.step + n * color.channels()];   // blue
+            // newp[4] = color.data[m * color.step + n * color.channels() + 1]; // green
+            // newp[3] = color.data[m * color.step + n * color.channels() + 2]; // red
+            // newpointcloud.push_back(newp);
         }
     }
     
-    Eigen::Isometry3d T = ORB_SLAM2::Converter::toSE3Quat( kf->GetPose() );
     PointCloud::Ptr cloud(new PointCloud);
     pcl::transformPointCloud( *tmp, *cloud, T.inverse().matrix());
     cloud->is_dense = false;
@@ -190,6 +203,7 @@ void PointCloudMapping::viewer()
         boost::this_thread::sleep(boost::posix_time::microseconds (100000));
         viewer.showCloud(globalMap);
         cout<<"show globalMap size="<<globalMap->points.size()<<endl;
+        // showPointCloud(newpointcloud);
         lastKeyframeSize = N;
     }
 }
@@ -228,7 +242,7 @@ void PointCloudMapping::showPointCloud(const vector<Vector6d> &pointcloud) {
         }
         glEnd();
         pangolin::FinishFrame();
-        // usleep(5000);   // sleep 5 ms
+        usleep(5000);   // sleep 5 ms
     }
     return;
 }
